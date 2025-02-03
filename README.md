@@ -1,5 +1,5 @@
 # emacs-void
-Installing emacs from souce on voidlinux
+Installing emacs-30 from souce on voidlinux
 
 ```shell
 git clone https://github.com/emacs-mirror/emacs

@@ -12,7 +12,7 @@ sudo xbpx-install autoconf make gcc texinfo gtk+3-devel libXaw-devel libgccjit-d
 
 ./autogen.sh
 
-./configure CFLAGS='-march=native -mtune=native -O3 -fomit-frame-pointer' --with-tree-sitter --with-xft --with-xml2 --with-pgtk --with-json --with-native-compilation
+./configure CFLAGS='-march=native -mtune=native -O3 -fomit-frame-pointer' --with-tree-sitter --with-xft --with-xml2 --with-x-toolkit=lucid --with-json --with-native-compilation
 
 make bootstrap -j
 
